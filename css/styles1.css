@@ -1,0 +1,107 @@
+body{
+	font-family: "Lato";
+	background-color: skyblue;
+	overflow: hidden;
+}
+
+#bg {
+	height: 1000px;
+	width: 100%;
+	background-color: skyblue;
+	
+}
+
+/*#header{
+	position: relative;
+	font-family:"Serif";
+	text-align: center;
+	top: -1200px;
+	animation-name: text;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+} */
+
+.active{
+	color: red;
+	opacity: 4.5;
+}
+
+#header{
+	text-align: center;
+}
+
+
+
+
+
+
+
+#dark{
+	position: relative;
+	opacity: 0.75;
+	height: 120px;
+	width: 250px;
+	right: -1700px;
+	animation-name: wind1;
+	animation-delay: 2s;
+	animation-duration: 20s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-direction: forward;
+	animation-timing-function: linear;
+}
+#light{
+	position: relative;
+	opacity: 0.2;
+	height: 120px;
+	width: 250px;
+	right: -1500px;
+	animation-name: wind2;
+	animation-delay: 4s;
+	animation-duration: 25s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-direction: forward;
+	animation-timing-function: linear;
+	
+}
+#normal{
+	position: relative;
+	opacity: 0.5;
+	height: 120px;
+	width: 250px;
+	right: -1500px;
+	animation-name: wind2;
+	animation-delay: 6s;
+	animation-duration: 30s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-direction: forward;
+	animation-timing-function: linear;
+	
+}
+
+
+ @keyframes wind1{
+	from{right: -1700px;}
+	to{right: 1500px;}
+}	
+ 
+ @keyframes wind2{
+	from{right: -1500px;}
+	to{right: 1700px;}
+}
+
+ @keyframes text{
+     from{top: -1200px;}
+	 to{top: 0px;}
+ } 
+ 
+
+ 
+ 
+ 
+ 
+
+
+
